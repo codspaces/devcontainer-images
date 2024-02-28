@@ -1,3 +1,7 @@
 {
-    "image": "mcr.microsoft.com/devcontainers/python:latest"
+    "image": "mcr.microsoft.com/devcontainers/python:latest",
+    "features": {
+        "ghcr.io/devcontainers/features/sshd:1": {
+            "version": "latest"
+        }
 }
